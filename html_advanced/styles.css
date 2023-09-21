@@ -3,7 +3,7 @@ body{
     font-style: normal;
 }
 header{
-    background-image: url(https://github.com/Samenergy/alu-web-development/tree/main/html_advanced/img/Bitmap.png)
+    background-image: url("../html_advanced/img/Bitmap.png");
     display: flex;
     flex-direction: row;
     flex: auto;
