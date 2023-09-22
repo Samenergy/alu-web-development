@@ -3,19 +3,133 @@ body{
     font-style: normal;
 }
 header{
+    width: 1448.15px;
+    height: 1055px;
+    background-repeat: no-repeat, repeat;
     background-image: url("../html_advanced/img/Bitmap.png");
+    background-blend-mode: color;
+    filter: grayscale(100%)
+    
+}
+header .logo{
+    
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    padding: 10px;
+    margin-left: 100px;
+    text-decoration: none;
+
+}
+.nav-urls{
+    font-size: 12;
+}
+.nav-urls1{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    padding: 10px;
+    margin-right: 100px;
+    text-decoration: none;
+}
+.nav-urls2{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    padding: 10px;
+    margin-right: 0px;
+    text-decoration: none;
+}
+.nav-urls3{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    padding: 10px;
+    margin-right: -100px;
+    text-decoration: none;
+}
+.header-section{
+    left: 20%;
+    right: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -2.6rem;
+    background-blend-mode: color;
+    background: rgba(0, 0, 0, 1);
+    background: radial-gradient(
+        85.9% 85.9% at 50% 14.1%,
+        rgba(41, 48, 61, 0.0001) 0%,
+        #071629 100%);
+}
+.schooled{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+.get-schooled{
+    height: 150px;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 151px;
+    text-align: center;
+    color: #ffffff;
+}
+.schooled-text{
+    height: 20px;
+    position: relative;
+    margin-top: -7%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+.register{
+    background:#C271FF;
+    color: #ffffff;
+    border-radius: 25px;
+    align-self: center;
+    border: none;
+    font-weight: 500;
+    padding: 1rem;
+    margin: 2rem;
+    padding: 0.7rem;
+}
+.pros{
+    font-weight: normal;
+}
+.learn{
+    font-weight: bold;
+    color: #C271FF;
+}
+.pros-title{
+    align-self: center;
+    font-weight: normal;
+    color: #ffffff;
+    position: absolute;
+    left: 570px;
+    top: 1500px;
+}
+.pros-block{
     display: flex;
     flex-direction: row;
-    flex: auto;
-    padding: 2% 5% 2% 5%;
-    filter: grayscale(100%);
-    position: absolute;
-    left: -0.025%;
-    right: -0.025%;
-    top: 0%;
-    bottom: -26.48%;
+    justify-content: center;
 }
-header.logo{
-    flex: 2;
-    z-index: 1;
+.pros-card{
+    width: 20%;
+    align-items: center;
+    display: flex;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    font-style: italic;
+
+}
+.pros img{
+    border-radius: 100%;
 }
