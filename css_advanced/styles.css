@@ -15,3 +15,7 @@ header{
     top: 0%;
     bottom: -26.48%;
 }
+header.logo{
+    flex: 2;
+    z-index: 1;
+}
