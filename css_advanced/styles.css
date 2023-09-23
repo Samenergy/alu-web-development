@@ -7,7 +7,7 @@ header{
     height: 1055px;
     background-repeat: no-repeat, repeat;
     background-image: url("../html_advanced/img/Bitmap.png");
-    background-blend-mode: color;
+    position: relative;
     filter: grayscale(100%)
     
 }
@@ -189,7 +189,7 @@ header .logo{
     display: flex;
     flex-direction: column;
     max-width: 15%;
-  }
+}
   .video-card h2 {
     font-weight: 700;
     font-size: 20px;
@@ -198,7 +198,6 @@ header .logo{
     left: -6px;
     top: -100px;
 }
-  }
   .video-card .video-desc {
     font-weight: 400;
     font-size: 14px;
@@ -207,7 +206,7 @@ header .logo{
   }
 .video-card .play{
     position: relative;
-    top: -18%;
+    top: -25%;
     left: 30%;
 }
 .video-card .author {
