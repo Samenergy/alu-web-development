@@ -37,6 +37,6 @@ If you need further assistance or have any questions related to this project, re
 - [Figma Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS Tutorial](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-##Preview of the platform
+## Preview of the platform
 ![Alt Text](../html_advanced/img/1f4cd63ecc3a8c03b0f4309b74aca179e225aabf.jpg)
 
