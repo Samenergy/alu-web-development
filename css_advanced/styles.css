@@ -237,3 +237,35 @@ header .logo{
     text-align: right;
     color: #c271ff;
   }
+  .membership-section{
+    color: white;
+    background-color: #071629;
+    padding: 2rem;
+
+  }
+.membership-section h1{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 32px;
+    font-weight: 300;
+}
+.memberships{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 2rem;
+    padding-right: 5rem;
+}
+.membership-section button{
+    background: #c271ff;
+    border-radius: 25px;
+    border: none;
+    padding: 0.7rem;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    align-self: center;
+    margin: 2rem;
+    padding: 1rem;
+    left: 40%;
+}
